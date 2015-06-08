@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app="app">
+
+  <head>
+  	    <script data-require="angular.js@*" data-semver="1.3.5" src="https://code.angularjs.org/1.3.5/angular.js"></script>
+    <script data-require="angular-route@*" data-semver="1.3.5" src="https://code.angularjs.org/1.3.5/angular-route.js"></script>
+    
+  
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+
+
+
+    <script src="js/script.js"></script>
+    <script src="js/controller/Device.js"></script>
+    <script src="js/controller/Time.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="main_container">
+
+			<div class="inner">			
+				<h3>Views Menu</h3>
+				<ul>
+					<li><a href="index.html">Back to HOME</a></li>
+					<li><a href="#/Device">See the List of the Device</a></li>
+					<li><a href="#/Time">See the Time</a></li>
+				</ul>
+
+				<div ng-view class="text-center"></div>
+
+			</div>
+
+		</div>
+
+  </body>
+
+</html>
