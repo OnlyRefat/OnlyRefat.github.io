@@ -27,9 +27,9 @@ app.controller('experienceCtrl', function($scope) {
   {title:'CGPA', content:'3.49(Out of 4)'},
   {title:'Position', content:'13th'}
   ]
-  $scope.careerInfo=[  {title:'Dhrubok Info Tech Ltd(March\'15-Present)',content:'Working as a Software Developer.'},
-  {title:'Monist IT Inc(April\'14-September\'14)',content:'Worked as an Intern.'}
-  ]
+  $scope.careerInfo=[  {title:'RedqTeam(October\'15-Present)',content:'Working as a Software Developer.'},
+  {title:'Dhrubok Info Tech Ltd(March\'15-September\'15)',content:'Worked as a Software Developer.'},
+  {title:'Monist IT Inc(April\'14-September\'14)',content:'Worked as an Intern.'}]
 
 });
 

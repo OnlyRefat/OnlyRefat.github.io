@@ -7,14 +7,15 @@ google.setOnLoadCallback(function() {
 });
 
 app.controller('skillCtrl', function($scope){
-
        var data = google.visualization.arrayToDataTable([
       ['Sector', 'Number Of Project',],
-      ['C/C++', 20],
+      ['reactJs', 20],
+      ['Javascript', 30],
+      ['C/C++', 5],
       ['Android', 4],
       ['Java', 5],
-      ['NodeJs', 4],
-      ['angularJs',3]
+      ['NodeJs', 10],
+      ['angularJs',5]
     ]);
     var options = {
       title: 'Work Done'

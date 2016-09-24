@@ -8,10 +8,28 @@
     </div>
 
 
+
+	<div class="row">
+		<div class="col-md-9 col-md-offset-1">
+			<div><h3 class="text-primary">Career</h3></div>
+			<table  class="table table-bordered">
+			<tr >
+					<td><b>Name</b></td>
+					<td><b>Description</b></td>
+				</tr>
+			<tr ng-repeat="info in careerInfo">
+					<td>{{info.title}}</td>
+					<td>{{info.content}}</td>
+				</tr>
+			</table>	
+
+		</div>
+		
+	</div>
+		<br>
     <div class="row">
 	<div class="col-md-9 col-md-offset-1">  <h3 class="text-primary" >{{Hello}}</h3> </div>
 	</div>
-
 	<div class="row">
 			<div class="col-md-9 col-md-offset-1">
 		<div class="tabbable tabs-left">
@@ -55,24 +73,7 @@
 			
 		</div>
 	</div>
-	<br>
-	<div class="row">
-		<div class="col-md-9 col-md-offset-1">
-			<div><h3 class="text-primary">Career</h3></div>
-			<table  class="table table-bordered">
-			<tr >
-					<td><b>Name</b></td>
-					<td><b>Description</b></td>
-				</tr>
-			<tr ng-repeat="info in careerInfo">
-					<td>{{info.title}}</td>
-					<td>{{info.content}}</td>
-				</tr>
-			</table>	
 
-		</div>
-		
-	</div>
 
 	
 </div>
