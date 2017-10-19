@@ -1,6 +1,6 @@
 app.controller('experienceCtrl', function($scope) {
   $scope.Hello="Education";
-  $scope.Tabnumber='tab1';
+  $scope.Tabnumber='tab3';
   $scope.sscinformation=[{title:'Board', content:'Rajshai'},
   {title:'Session', content:'2006-2007'},
   {title:'School', content:'Church of God High School, Lalmonirhat'},
@@ -26,12 +26,12 @@ app.controller('experienceCtrl', function($scope) {
   {title:'Registration', content:'371'},
   {title:'CGPA', content:'3.49(Out of 4)'},
   {title:'Position', content:'13th'}
-  ]
-  $scope.careerInfo=[  {title:'RedqTeam(October\'15-Present)',content:'Working as a Software Developer.'},
+  ];
+  $scope.careerInfo=[  {title:'RedQ Inc(October\'15-Present)',content:'Working as a Software Developer.'},
   {title:'Upwork(June\'15-Present)',content:'Working as a Freelancer(software Developer).'},
   {title:'Dhrubok Info Tech Ltd(March\'15-September\'15)',content:'Worked as a Software Developer.'},
   {title:'Monist IT Inc(April\'14-September\'14)',content:'Worked as an Intern.'}]
-
+  $scope.certificationInfo=[{title:'Machine Learning by Stanford University', content:'Machine Learning by Stanford University" on Coursera. Certificate earned on October 2, 2017'}]
 });
 
 
